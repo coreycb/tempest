@@ -352,7 +352,7 @@ class TestNetworkBasicOps(manager.NetworkScenarioTest):
                                                          src=floating_ip))
                 raise
 
-    @test.attr(type='smoke')
+    #@test.attr(type='smoke')
     @test.idempotent_id('f323b3ba-82f8-4db7-8ea6-6a895869ec49')
     @test.services('compute', 'network')
     def test_network_basic_ops(self):
